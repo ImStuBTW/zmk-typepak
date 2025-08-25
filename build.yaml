@@ -18,5 +18,5 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-board: ["nrfmicro"]
+board: ["nice_nano_v2"]
 shield: ["reviung41"]
