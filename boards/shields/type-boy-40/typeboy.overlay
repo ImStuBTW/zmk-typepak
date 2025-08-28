@@ -2,7 +2,7 @@
 
 #include "typeboy.dtsi"
 
-&spi1 {
+&cart_spi {
     status = "okay";
 
     cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
@@ -10,7 +10,7 @@
 		compatible = "sharp,ls0xx";
 		label = "DISPLAY";
 		spi-max-frequency = <2000000>;
-		reg = <1>;
+		reg = <0>;
 		width = <160>;
 		height = <68>;
 	};
