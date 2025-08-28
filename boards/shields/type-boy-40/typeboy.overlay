@@ -2,7 +2,7 @@
 
 #include "typeboy.dtsi"
 
-&cart_spi {
+&spi1 {
     status = "okay";
 
     cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
