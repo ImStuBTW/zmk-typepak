@@ -6,8 +6,6 @@ config ZMK_KEYBOARD_NAME
 config SPI
     default y
 
-if ZMK_DISPLAY
-
 config ZMK_DISPLAY
 	select LV_FONT_MONTSERRAT_28
 
@@ -16,7 +14,5 @@ config LS0XX
 
 config ZMK_DISPLAY_INVERT
 	default y
-
-endif # ZMK_DISPLAY
 
 endif
