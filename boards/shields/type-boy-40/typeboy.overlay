@@ -5,7 +5,6 @@
 &cart_spi {
     status = "okay";
     
-    
     cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
 	ls0xx: ls0xx@1 {
 		compatible = "sharp,ls0xx";
