@@ -1,0 +1,10 @@
+file_format: "1"
+id: typeboy
+name: TypeBoy
+type: shield
+url: https://github.com/ImStuBTW/type-boy-40
+requires: [cart]
+features:
+  - keys
+  - studio
+  - display
