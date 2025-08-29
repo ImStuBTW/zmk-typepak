@@ -2,9 +2,23 @@
 
 #include "typeboy.dtsi"
 
-nice_view_spi: &cart_spi {
+&cart_spi {
+    compatible = "nordic,nrf-spim";
     status = "okay";
+
+    pinctrl-0=<&spi1_default>;
+    pinctrl-1=<&spi1_sleep>;
+    pinctrl-names="default", "sleep";
+
     cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
+	ls0xx: ls0xx@0 {
+		compatible = "sharp,ls0xx";
+		label = "DISPLAY";
+		spi-max-frequency = <2000000>;
+		reg = <0>;
+		width = <160>;
+		height = <68>;
+	};
 };
 
 &typeboy_layout {
