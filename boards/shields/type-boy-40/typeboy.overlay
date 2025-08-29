@@ -26,11 +26,6 @@
 };
 
 / {
-    glidepoint_listener {
-        compatible = "zmk,input-listener";
-        device = <&glidepoint>;
-    };
-    
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &typeboy_layout;
