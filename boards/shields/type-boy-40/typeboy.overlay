@@ -2,18 +2,9 @@
 
 #include "typeboy.dtsi"
 
-&cart_spi {
+nice_view_spi: &cart_spi {
     status = "okay";
-
-    cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
-	ls0xx: ls0xx@0 {
-		compatible = "sharp,ls0xx";
-		label = "DISPLAY";
-		spi-max-frequency = <2000000>;
-		reg = <0>;
-		width = <160>;
-		height = <68>;
-	};
+  cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
 };
 
 &typeboy_layout {
