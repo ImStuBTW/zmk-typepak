@@ -4,7 +4,7 @@
 
 nice_view_spi: &cart_spi {
     status = "okay";
-  cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
 };
 
 &typeboy_layout {
