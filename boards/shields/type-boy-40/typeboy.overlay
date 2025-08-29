@@ -3,12 +3,7 @@
 #include "typeboy.dtsi"
 
 &cart_spi {
-    compatible = "nordic,nrf-spim";
     status = "okay";
-
-    pinctrl-0=<&spi1_default>;
-    pinctrl-1=<&spi1_sleep>;
-    pinctrl-names="default", "sleep";
 
     cs-gpios = <&cart 23 GPIO_ACTIVE_HIGH>;
 	ls0xx: ls0xx@0 {
@@ -20,6 +15,8 @@
 		height = <68>;
 	};
 };
+
+&cart_serial { status = "disabled"; };
 
 &typeboy_layout {
     transform = <&default_transform>;

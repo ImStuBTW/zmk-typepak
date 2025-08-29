@@ -7,10 +7,17 @@ config SPI
     default y
 
 config ZMK_DISPLAY
+	select LV_USE_CONT
 	select LV_FONT_MONTSERRAT_28
 
 config LS0XX
 	default y
+
+config LV_Z_BITS_PER_PIXEL
+	default 1
+
+choice LV_COLOR_DEPTH
+	default LV_COLOR_DEPTH_1
 
 config ZMK_DISPLAY_INVERT
 	default y
