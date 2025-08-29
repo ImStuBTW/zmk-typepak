@@ -5,6 +5,7 @@
         compatible = "zmk,physical-layout";
         display-name = "typeboy";
 
+        // TODO: Actually create a physical map.
         keys
             = <&key_physical_attrs 100 100 000  53 700    400 338>
             , <&key_physical_attrs 100 100 100  53 700    400 338>
