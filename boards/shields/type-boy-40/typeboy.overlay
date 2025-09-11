@@ -58,8 +58,8 @@
         dr-gpios = <&cart 17 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "4x";
-        sleep;
-        no-taps;
+        y-invert;
+        rotate-90;
     };
 };
 
@@ -73,6 +73,7 @@
     glidepoint_listener {
         compatible = "zmk,input-listener";
         device = <&glidepoint>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
     };
 };
 
