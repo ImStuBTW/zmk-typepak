@@ -7,4 +7,3 @@ requires: [cart]
 features:
   - keys
   - studio
-  - display
