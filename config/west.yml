@@ -4,15 +4,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: carrefinho
-      url-base: https://github.com/carrefinho/
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
       revision: main
     - name: cirque-input-module
-      remote: carrefinho
+      remote: petejohanson
       revision: main
   self:
     path: config

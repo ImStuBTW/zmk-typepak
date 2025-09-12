@@ -58,13 +58,8 @@
         dr-gpios = <&cart 17 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "4x";
-
-        z-touch-detection;
-        z-threshold-touch = <5>;
-        z-threshold-release = <2>;
-        inertia;
-        inertia-start-velocity = <300>;
-        inertia-stop-velocity = <20>;
+        y-invert;
+        rotate-90;
     };
 };
 
