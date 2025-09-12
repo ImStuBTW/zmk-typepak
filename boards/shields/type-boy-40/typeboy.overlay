@@ -58,7 +58,6 @@
         dr-gpios = <&cart 17 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "4x";
-        sleep;
 
         z-touch-detection;
         z-threshold-touch = <5>;
