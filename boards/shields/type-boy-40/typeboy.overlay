@@ -60,7 +60,7 @@
         dr-gpios = <&cart 17 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "4x";
-        x-invert
+        x-invert;
         //y-invert;
         //rotate-90;
     };
