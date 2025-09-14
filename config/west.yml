@@ -5,7 +5,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: carrefinho
-      url-base: https://github.com/carrefinho/cirque-input-module
+      url-base: https://github.com/carrefinho/
   projects:
     - name: zmk
       remote: zmkfirmware
