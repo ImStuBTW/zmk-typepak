@@ -76,7 +76,14 @@
     glidepoint_listener {
         compatible = "zmk,input-listener";
         device = <&glidepoint>;
-        input-processors = <&zip_xy_scaler 4 1>;
+        input-processors = <&zip_xy_scaler 3 1>;
+
+      z-touch-detection;
+      z-threshold-touch = <5>;
+      z-threshold-release = <2>;
+      inertia;
+      inertia-start-velocity = <300>;
+      inertia-stop-velocity = <20>;
     };
 };
 
