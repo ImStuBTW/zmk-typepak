@@ -60,6 +60,7 @@
         dr-gpios = <&cart 17 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "4x";
+        sleep;
         x-invert;
         //y-invert;
         //rotate-90;
