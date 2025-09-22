@@ -31,21 +31,6 @@
             , <23 0 &gpio0 10 0> /* D23 */
             ;
     };
-
-    cart_a: cart_a {
-        compatible = "typepak-cart";
-        #gpio-cells = <2>;
-        gpio-map-mask = <0xffffffff 0xffffffc0>;
-        gpio-map-pass-thru = <0 0x3f>;
-        gpio-map
-            = <0 0 &gpio0 3 0> /* D1 / A0 */
-            , <1 0 &gpio0 30 0> /* D2 / A1 */
-            , <2 0 &gpio0 31 0> /* D3 / A2 */
-            , <3 0 &gpio0 29 0> /* D4 / A3 */
-            , <4 0 &gpio0 2 0> /* D6 / A4 */
-            , <5 0 &gpio0 28 0> /* D17 / A5 */
-            ;
-    };
 };
 
 cart_d: &cart {};
