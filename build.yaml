@@ -21,3 +21,4 @@
 include:
   - board: typepak
     shield: typeboy
+    snippet: zmk-usb-logging
