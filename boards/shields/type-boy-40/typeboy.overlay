@@ -61,8 +61,8 @@
 
         sensitivity = "4x";
         sleep;
-        no-taps;
-        no-secondary-tap;
+        //no-taps;
+        //no-secondary-tap;
         x-invert;
         //y-invert;
         //rotate-90;
