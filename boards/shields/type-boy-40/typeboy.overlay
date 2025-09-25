@@ -45,11 +45,10 @@
     };
 };*/
 
-// Display settings.
 &cart_spi {
     status = "okay";
 
-    cs-gpios = <&cart 16 GPIO_ACTIVE_LOW>, <&cart 19 GPIO_ACTIVE_LOW>, <&cart 20 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&cart 16 GPIO_ACTIVE_LOW>;
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
         reg = <0>;
@@ -59,7 +58,7 @@
 
         sensitivity = "4x";
         sleep;
-        no-taps;
+        //no-taps;
         //no-secondary-tap;
         x-invert;
         //y-invert;
