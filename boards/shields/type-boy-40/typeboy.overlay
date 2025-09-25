@@ -52,13 +52,13 @@
     status = "okay";
 
     cs-gpios = <&cart 16 GPIO_ACTIVE_LOW>;
+    btn-gpios = <&cart 19 GPIO_ACTIVE_LOW>;
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
         reg = <0>;
         spi-max-frequency = <1000000>;
         status = "okay";
         dr-gpios = <&cart 17 (GPIO_ACTIVE_HIGH)>;
-        btn-gpios = <&cart 19 (GPIO_ACTIVE_LOW)>;
 
         sensitivity = "4x";
         sleep;
