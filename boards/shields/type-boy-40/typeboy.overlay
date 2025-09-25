@@ -51,7 +51,7 @@
 &cart_spi {
     status = "okay";
 
-    cs-gpios = <&cart 16 GPIO_ACTIVE_LOW, &cart 19 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&cart 16 GPIO_ACTIVE_LOW>, <&cart 19 GPIO_ACTIVE_LOW>;
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
         reg = <0>;
