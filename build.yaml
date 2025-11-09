@@ -20,5 +20,5 @@
 ---
 include:
   - board: typepak
-    shield: typeboy, typeboy-pwing
+    shield: typeboy-pwing
 #    snippet: zmk-usb-logging
