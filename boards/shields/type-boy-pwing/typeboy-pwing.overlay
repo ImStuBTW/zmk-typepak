@@ -3,7 +3,7 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 //#include <dt-bindings/zmk/pointing.h>
-#include "typeboy.dtsi"
+#include "typeboy-pwing.dtsi"
 
 // Define a pinctrl for the RGB LEDs.
 &pinctrl {
