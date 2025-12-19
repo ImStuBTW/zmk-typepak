@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: kbrd-space
+      url-base: https://github.com/kbrd-space
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -13,6 +15,9 @@ manifest:
       revision: main
     - name: cirque-input-module
       remote: petejohanson
+      revision: main
+    - name: zmk-anti-idle
+      remote: kbrd-space
       revision: main
   self:
     path: config
