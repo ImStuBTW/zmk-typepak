@@ -2,7 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-      revision: v0.3
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: kbrd-space
@@ -11,7 +10,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-      revision: main
+      revision: v0.3
     - name: cirque-input-module
       remote: petejohanson
       revision: main
