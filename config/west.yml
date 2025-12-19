@@ -1,9 +1,8 @@
 manifest:
-  defaults:
-    revision: v0.2
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+      revision: v0.3
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: kbrd-space
